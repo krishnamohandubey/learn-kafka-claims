@@ -1,0 +1,48 @@
+{
+  "name": "ClaimSettlementEvent",
+  "namespace": "com.kafka.claimkafka.event",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long",
+      "default": 0
+    },
+    {
+      "name": "netDearnessAllowance",
+      "type": "long",
+      "default": 0
+    },
+    {
+      "name": "travelExpense",
+      "type": "long",
+      "default": 0
+    },
+    {
+      "name": "hotelExpense",
+      "type": "long",
+      "default": 0
+    },
+    {
+      "name": "mealExpense",
+      "type": "long",
+      "default": 0
+    },
+    {
+      "name": "localConveyanceExpense",
+      "type": "long",
+      "default": 0
+    },
+    {
+      "name": "otherExpense",
+      "type": "long",
+      "default": 0
+    },
+    {
+      "name": "payableAmount",
+      "type": "long",
+      "default": 0
+    }
+
+  ]
+}
